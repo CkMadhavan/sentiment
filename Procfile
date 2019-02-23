@@ -1,1 +1,1 @@
-web: gunicorn flapp:app 
+web: gunicorn sentiment:app 
