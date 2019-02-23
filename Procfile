@@ -1,1 +1,1 @@
-web: gunicorn sentiment:app 
+web: gunicorn index:app 
