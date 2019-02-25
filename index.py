@@ -33,7 +33,7 @@ def main(process):
     x = str(model.predict(np.array(word))[0][0])
     tf.keras.backend.clear_session()
     
-    return jsonify({process :x})
+    return x
 
 if __name__=="__main__":
     app.run()
